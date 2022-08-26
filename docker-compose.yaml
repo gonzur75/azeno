@@ -10,6 +10,7 @@ services:
     restart: on-failure
     ports:
       - 8000:8000
+
     networks:
       - backend_core_db_network
     volumes:
